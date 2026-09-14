@@ -302,7 +302,7 @@ src="https://www.facebook.com/tr?id=1766379144568602&ev=PageView&noscript=1"
       <div class="avatar-ring"></div>
       <img
         class="avatar"
-        src="anurag.jpg"
+        src="diva.jpg"
         alt="Anurag"
         loading="eager"
         decoding="async"
@@ -313,10 +313,30 @@ src="https://www.facebook.com/tr?id=1766379144568602&ev=PageView&noscript=1"
     </div>
 
     <!-- ═══════ CHANNEL NAME ═══════ -->
-    <h1>𝐀𝐧𝐮𝐫𝐚𝐠 𝐀𝐫𝐦𝐲</h1>
+    <h1>𝐃𝐢𝐯𝐚 𝐆𝐚𝐦𝐢𝐧𝐠 𝟐</h1>
 
     <!-- ═══════ JOIN BUTTON — replace href ═══════ -->
-    <a class="join-btn" href="https://t.me/+ABxSNxMvQss0MzM1" target="_blank" rel="noopener noreferrer" onclick="fbq('trackCustom', 'Subscribe');"><svg viewBox="0 0 24 24"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>𝐉𝐨𝐢𝐧 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</a>
+    <a
+  class="join-btn"
+  id="joinTelegram"
+  href="https://t.me/+u61yH3VsNFk3Mzk9"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <svg viewBox="0 0 24 24">
+    <path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/>
+  </svg>
+  𝐉𝐨𝐢𝐧 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐂𝐡𝐚𝐧𝐧𝐞𝐥
+</a>
+
+<script>
+document.getElementById("joinTelegram").addEventListener("click", function () {
+  if (typeof fbq === "function") {
+    fbq("track", "Subscribe");
+  }
+});
+</script>
+
 
 
     <div class="foot">
